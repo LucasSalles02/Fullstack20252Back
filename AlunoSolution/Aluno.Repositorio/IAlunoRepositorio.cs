@@ -10,5 +10,7 @@ namespace Aluno.Repositorio
     internal interface IAlunoRepositorio
     {
         void Adicionar(Aluno1 aluno);
+        void Listar(Aluno1 aluno);
+
     }
 }
