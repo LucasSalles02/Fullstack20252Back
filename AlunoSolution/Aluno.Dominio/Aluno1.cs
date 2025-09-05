@@ -12,7 +12,7 @@ namespace Aluno.Dominio
         public string Nome {  get; set; }
         public int Idade { get; set; }
 
-        public bool EhMaiordeIdadee()
+        public bool EhMaiordeIdade()
         {
             return Idade >= 18;
         }
